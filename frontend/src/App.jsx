@@ -10,14 +10,14 @@ function App() {
 
   return (
     <>
-      {/* <AuthProvide> */}
+      <AuthProvide>
         <Navbar/>
         <main className='min-h-screen max-w-screen-2xl mx-auto px-14 py-6 font-primary'>
           <Outlet/>
         </main>
         <Footer/>
 
-       {/* </AuthProvide> */}
+       </AuthProvide>
     </>
   )
 }

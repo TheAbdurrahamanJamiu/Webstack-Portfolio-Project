@@ -17,7 +17,12 @@ app.use(cors({
 
 // routes
 const bookRoutes = require('./src/books/book.route')
+const orderRoutes = require("./src/orders/order.route")
+
+
 app.use("/api/books", bookRoutes)
+app.use("/api/orders", orderRoutes)
+
 
 async function main() {
     await mongoose.connect("mongodb+srv://AbdurrahamanJamiu:Akanbiola21@cluster0.8ru6x.mongodb.net/walk-in-library?retryWrites=true&w=majority&appName=Cluster0");

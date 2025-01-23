@@ -12,7 +12,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation'; 
-import { useFetchAllBooksQuery } from '../../redux/Features/cart/books/booksApi';
+import { useFetchAllBooksQuery } from '../../redux/Features/books/booksApi';
 
 const Recommended = () => {
 
